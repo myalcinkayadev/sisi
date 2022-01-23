@@ -15,3 +15,14 @@
 - Built-in functions
 - Recursion
 - Closures
+
+## Interpreter Roadmap
+- Tokenize and parse source code in a REPL
+- Building up an internal representation of the code called abstract syntax tree (AST) and then evaluate this tree
+
+### Major Parts
+- the lexer
+- the parser
+- the Abstract Syntax Tree (AST)
+- the internal object system
+- the evaluator
